@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		AC8A63A629B59BEC00C32694 /* Assignment2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A63A529B59BEC00C32694 /* Assignment2App.swift */; };
-		AC8A63A829B59BEC00C32694 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A63A729B59BEC00C32694 /* ContentView.swift */; };
+		AC8A63A829B59BEC00C32694 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A63A729B59BEC00C32694 /* Converter.swift */; };
 		AC8A63AA29B59BED00C32694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8A63A929B59BED00C32694 /* Assets.xcassets */; };
 		AC8A63AD29B59BED00C32694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8A63AC29B59BED00C32694 /* Preview Assets.xcassets */; };
+		E1CBDE422BAFCBFE00B0CCF8 /* CurrencyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBDE412BAFCBFE00B0CCF8 /* CurrencyItem.swift */; };
+		E1CBDE442BAFCEC200B0CCF8 /* ConvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBDE432BAFCEC200B0CCF8 /* ConvertModel.swift */; };
+		E1CBDE462BAFCF3F00B0CCF8 /* CurrencyConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBDE452BAFCF3F00B0CCF8 /* CurrencyConverterViewModel.swift */; };
+		E1CBDE482BAFD58100B0CCF8 /* CurrencyConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBDE472BAFD58100B0CCF8 /* CurrencyConverterView.swift */; };
+		E1CBDE4A2BAFD72300B0CCF8 /* CryptoConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBDE492BAFD72300B0CCF8 /* CryptoConverterView.swift */; };
+		E1CBDE4C2BAFDC9F00B0CCF8 /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBDE4B2BAFDC9F00B0CCF8 /* ConverterView.swift */; };
+		E1CBDE4E2BAFE1E000B0CCF8 /* CryptoConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBDE4D2BAFE1E000B0CCF8 /* CryptoConverterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC8A63A229B59BEC00C32694 /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A63A529B59BEC00C32694 /* Assignment2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2App.swift; sourceTree = "<group>"; };
-		AC8A63A729B59BEC00C32694 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8A63A729B59BEC00C32694 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		AC8A63A929B59BED00C32694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8A63AC29B59BED00C32694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1CBDE412BAFCBFE00B0CCF8 /* CurrencyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyItem.swift; sourceTree = "<group>"; };
+		E1CBDE432BAFCEC200B0CCF8 /* ConvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertModel.swift; sourceTree = "<group>"; };
+		E1CBDE452BAFCF3F00B0CCF8 /* CurrencyConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModel.swift; sourceTree = "<group>"; };
+		E1CBDE472BAFD58100B0CCF8 /* CurrencyConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterView.swift; sourceTree = "<group>"; };
+		E1CBDE492BAFD72300B0CCF8 /* CryptoConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoConverterView.swift; sourceTree = "<group>"; };
+		E1CBDE4B2BAFDC9F00B0CCF8 /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
+		E1CBDE4D2BAFE1E000B0CCF8 /* CryptoConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoConverterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,17 @@
 		AC8A63A429B59BEC00C32694 /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
+				E1CBDE492BAFD72300B0CCF8 /* CryptoConverterView.swift */,
 				AC8A63A529B59BEC00C32694 /* Assignment2App.swift */,
-				AC8A63A729B59BEC00C32694 /* ContentView.swift */,
+				E1CBDE472BAFD58100B0CCF8 /* CurrencyConverterView.swift */,
+				E1CBDE432BAFCEC200B0CCF8 /* ConvertModel.swift */,
+				E1CBDE452BAFCF3F00B0CCF8 /* CurrencyConverterViewModel.swift */,
+				E1CBDE4D2BAFE1E000B0CCF8 /* CryptoConverterViewModel.swift */,
+				E1CBDE412BAFCBFE00B0CCF8 /* CurrencyItem.swift */,
+				AC8A63A729B59BEC00C32694 /* Converter.swift */,
 				AC8A63A929B59BED00C32694 /* Assets.xcassets */,
 				AC8A63AB29B59BED00C32694 /* Preview Content */,
+				E1CBDE4B2BAFDC9F00B0CCF8 /* ConverterView.swift */,
 			);
 			path = Assignment2;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8A63A829B59BEC00C32694 /* ContentView.swift in Sources */,
+				E1CBDE4E2BAFE1E000B0CCF8 /* CryptoConverterViewModel.swift in Sources */,
+				E1CBDE4A2BAFD72300B0CCF8 /* CryptoConverterView.swift in Sources */,
+				E1CBDE4C2BAFDC9F00B0CCF8 /* ConverterView.swift in Sources */,
+				AC8A63A829B59BEC00C32694 /* Converter.swift in Sources */,
+				E1CBDE462BAFCF3F00B0CCF8 /* CurrencyConverterViewModel.swift in Sources */,
 				AC8A63A629B59BEC00C32694 /* Assignment2App.swift in Sources */,
+				E1CBDE422BAFCBFE00B0CCF8 /* CurrencyItem.swift in Sources */,
+				E1CBDE482BAFD58100B0CCF8 /* CurrencyConverterView.swift in Sources */,
+				E1CBDE442BAFCEC200B0CCF8 /* ConvertModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
